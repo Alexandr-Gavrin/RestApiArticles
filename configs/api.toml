@@ -1,0 +1,6 @@
+[web-server]
+bind_addr = ":8080"
+loger_level = "debug"
+
+[storage]
+database_uri = "host=localhost port=5433 dbname=dbserver user=postgres password=1234 sslmode=disable"
